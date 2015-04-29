@@ -1,30 +1,9 @@
+var passphrase = prompt("Please type the secret word to give your boyfriend a kiss");
+var keyphrase = "Timothy";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var countTo100 = 11;
-var count = 0;
-
-while (count !== countTo100) {
- document.write("<div>" + count + "</div>");
- count += 1;
-
+while( keyphrase !== passphrase ){
+	var passphrase = prompt("Please Try again");
 
 }
+
+alert("Congratulations");
