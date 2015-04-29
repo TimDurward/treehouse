@@ -8,7 +8,7 @@ Javascript Basics
 
 
 
-Currently working on Javascript
+Course working on
 
 
-Have passed Javascript basics and beginning Loops
+Javascript Loops
