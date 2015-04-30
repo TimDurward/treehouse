@@ -14,13 +14,15 @@ if (permission === 2) {
 	alert("Cannot proceed");
 }
 else if(permission === 1) {
-do {
+
+	do {
 
 	document.write("<h1> Hello my name is ");
 	
 } while (permission !== 1){
 	var askName = prompt("Please type your name");
 	document.write(askName);
+	var permission = 1;
 
 
 }
