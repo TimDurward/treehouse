@@ -1,4 +1,10 @@
-div {
-	width: 100%;
+body {
+	width: 99%;
+	text-align: center;
+}
 
+p {
+	font-weight: bold;
+	font-size: 70px;
+	display: inline-block;
 }
