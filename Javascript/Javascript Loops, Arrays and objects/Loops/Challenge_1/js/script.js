@@ -21,7 +21,7 @@ html += '<div style="background-color:' + rgbColor + '"></div>';
 document.write(html);
 
 setTimeout(function () {
-       window.location.href = "index.html"; //will redirect to your blog page (an ex: blog.html)
+       window.location.href = "index.html"; //Will reload index page
     }, 500); //will call the function after 2 secs.
 
 
