@@ -1,51 +1,24 @@
-// Finally understand do..while and while loops. Omg that was ridiculous. 
-// Moving on to For...loops. Congrats to myself. This is fantastic. I'm so happy.
+/*******************************************
+*********LOOP DEMONSTRATIONS****************
+*******************************************/
 
-
-// Counting Variable/break
-var counter = 1;
-
-
-//WHILE LOOPS
-//while (counter <= 9) {
-//	if (counter.toString().length === 1){
-//	document.write("<p>" + "{ " + counter + " Million }");
-//} else{
-//	document.write(counter+" | ");
-//}
-//	counter += 1;
-//}
-
-
-
-//DO WHILE LOOPS
-do {
- {
-	if (counter.toString().length === 1){
-	document.write("<p>" + "{ " + counter + " Million }");
-} else{
-	document.write(counter+" | ");
-}
-	counter += 1;
+//FOR LOOPS
+for(var i=1; i<=100; i+=1){
+	document.write("<h3>"+i+"</h3><br>");
 }
 
-} while (counter <= 9) ;
 
+// Do...While LOOPS
+var i = 1;
+do{
+document.write("<h3>"+i+"</h3><br>");
+i += 1;
+} while(i<=100)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
+// While LOOPS	
+var i = 1;
+while(i<=100){
+	document.write("<h3>"+i+"</h3><br>");
+	i += 1;
+}
