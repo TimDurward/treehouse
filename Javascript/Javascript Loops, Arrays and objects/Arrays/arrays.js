@@ -1,4 +1,4 @@
-/*
+
 // Simple Array
 var shoppingList = ['eggs', 'pants', 'candy'];
 
@@ -19,49 +19,31 @@ shoppingList.shift(0);
 
 //Removing 'candy' .pop() = last index
 shoppingList.pop(2);
-*/
-
-/*
-var playlist = [
-  'Eminem',
-  'RHCP',
-  'Adelle',
-  'Bon Jovi',
-  'Fly Away',
-  'SOSA',
-  'Biggy Booty Bitches'
-];
-
-function print(message){
-  document.write(message);
-}
-
-function printList(list){
-  var listHTML = "<ol>";
-  for (var i; i < list.length; i += 1){
-  listHTML += "<li>" + list[i] + "</li>";
-  }
-  
-  listHTML += "</ol>";
-  print(listHTML);
-  }
 
 
-printList(playlist);
 
-*/
 
 var favNums = [];
+var favNames = [];
 
 var favNums1 = parseInt(prompt("Type your Favorite Numbers"));
-												
 var favNums2 = parseInt(prompt("Type your Favorite Numbers"));
-
 var favNums3 = parseInt(prompt("Type your Favorite Numbers"));
-
 var favNums4 = parseInt(prompt("Type your Favorite Numbers"));	
 
 favNums.push(favNums1, favNums2, favNums3, favNums4);
 
-console.log(favNums);
+var favNames1 = prompt("Type your Favorite Names");
+var favNames2 = prompt("Type your Favorite Names");
+var favNames3 = prompt("Type your Favorite Names");
+var favNames4 = prompt("Type your Favorite Names");
+
+favNames.push(favNames1, favNames2, favNames3, favNames4);
+
+var allArrays = favNums.concat(favNames);
+
+console.log(allArrays);
+
+
+
 									
