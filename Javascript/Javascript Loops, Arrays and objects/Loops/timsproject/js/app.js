@@ -6,7 +6,7 @@ var i = 0;
 
 
 
-
+//Want to add a array callback that .pushes all guesses into gNums[]. Still working on it. sigh.
 while(i < 5){
    userGuess = parseInt(prompt("Guess the number from 1 - 10. You have 5 Chances."));
     
