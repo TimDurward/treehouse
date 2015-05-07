@@ -5,3 +5,4 @@ var x = ['Thea', 'is', 'beautiful!', '=]'];
 for ( var i = 0; i <x.length; i += 1 ) 
 
 { alert(x[i]); }
+// server push
