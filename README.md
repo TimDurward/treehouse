@@ -16,4 +16,7 @@
 ##Courses that I'll be working in the near future
 * Tracking Data Using Objects
 
+##Soon to be working on Codeschool's JS Curriculum 
+
+
 
